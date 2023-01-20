@@ -47,9 +47,21 @@ ul
 {
     list-style: none;
 }
+ol{
+    padding-left: 40px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
+a
+{
+    color: var(--skin-color);
+}
 .section
 {
-    background: var(--bg-black-900);
+    background-color: var(--bg-black-900);
+    background-image: radial-gradient( var(--skin-color) 1.7000000000000002px,transparent 1.7000000000000002px),radial-gradient( var(--skin-color) 1.7000000000000002px, var(--bg-black-100) 1.7000000000000002px);
+    background-size: 68px 68px;
+    background-position: 0 0,34px 34px;
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -150,7 +162,10 @@ ul
 .aside
 {
     width: 270px;
-    background: var(--bg-black-100);
+    background-color: var(--bg-black-100);
+    background-image: radial-gradient( var(--skin-color) 1.7000000000000002px,transparent 1.7000000000000002px),radial-gradient( var(--skin-color) 1.7000000000000002px,var(--bg-black-900) 1.7000000000000002px);
+    background-size: 68px 68px;
+    background-position: 0 0,34px 34px;
     position: fixed;
     left: 0;
     top: 0;
@@ -199,6 +214,7 @@ ul
 
 
 }
+
 .aside .logo a::after
 {
     content: '';
@@ -327,6 +343,9 @@ ul
 }
 .home .home-info
 {
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-balak-50);
+    border-radius: 10px;
     flex: 0 0 60%;
     max-width: 60%;
 }
@@ -375,8 +394,8 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color) ;
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: 25px;
+    bottom: -10px;
 
 }
 .home-img::before
@@ -387,8 +406,8 @@ h3.my-profession
     width: 80px;
     border-top: 10px solid var(--skin-color) ;
     border-left: 10px solid var(--skin-color);
-    left: -20px;
-    top: -40px;
+    left: 10px;
+    top: -70px;
 
 }
 
@@ -439,6 +458,9 @@ h3.my-profession
 }
 .about .about-content .personal-info
 {
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-balak-50);
+    border-radius: 10px;
     flex: 0 0 60%;
     max-width: 60%;
     margin-top: 40px;
@@ -583,6 +605,13 @@ h3.my-profession
     background-color: var(--skin-color);
 
 
+}
+.list_color
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color: var(--skin-color);
 }
 .about .about-content .timeline .circle-dot
 {

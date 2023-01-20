@@ -17,6 +17,23 @@
 {
     transform: translateX(-25px);  
 }
+.style-switcher .lan-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 25px;
+    background: var(--bg-black-100);
+    color: var(--skin-color);
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
 .style-switcher .s-icon
 
 {
@@ -26,7 +43,7 @@
     text-align: center;
     font-size: 20px;
     background: var(--bg-black-100);
-    color: var(--text-black-900);
+    color: var(--skin-color);
     right: 100%;
     border: 1px solid var(--bg-black-50);
     margin-right: 25px;
